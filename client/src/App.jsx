@@ -23,6 +23,7 @@ function App() {
           <Route path="/reset-password/:token" element={<ResetPassword/>} />
           <Route path="/dashboard" elemen={<Dashboard/>} />
           <Route path="/create" element={<CreateURL/>} />
+          <Route path="/create" element={<CreateURL/>} />
           {/* <Route path="/list" element={<ListURLs/>} /> */}
         </Routes>
       {/* </div> */}
